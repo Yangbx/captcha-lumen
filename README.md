@@ -73,12 +73,12 @@ config(['captcha'=>
 在發送 Request 時將驗證碼與 UUID 一併送回 Server 端，在接收參數時做驗證即可：
 ```php
 public function checkCaptcha(Request $request, $type = 'default',$captchaUuid)
-    {
-        $this->validate($request,[
-            'captcha'=>'required|captcha:'.$captchaUuid
-        ]);
-        ...
-    }
+{
+    $this->validate($request,[
+        'captcha'=>'required|captcha:'.$captchaUuid
+    ]);
+    ...
+}
 ```
 
 
