@@ -2,6 +2,8 @@
 
 本項目修改 [Captcha for Laravel 5](https://github.com/mewebstudio/captcha) 和 [lumen-captcha](https://github.com/aishan/lumen-captcha)
 
+## Requirement
+Lumen version >= v5.5
 
 
 ## Preview
